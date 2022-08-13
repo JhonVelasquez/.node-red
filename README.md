@@ -3,7 +3,7 @@
 The directory contains configuration files for running with a node-red server.
 
 This directory should be pasted or replace in:
-* windows: c:\Users\[username]\.node-red
+* windows: c:/Users/[username]/.node-red
 * ubuntu: /root/.node-red    (according to the installation through cloning node-red from its repo https://github.com/node-red/node-red)
 
 ## Technologies
