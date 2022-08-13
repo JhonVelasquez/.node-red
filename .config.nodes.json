@@ -673,5 +673,220 @@
                 "file": "/root/.node-red/node_modules/node-red-contrib-aedes/aedes.js"
             }
         }
+    },
+    "cn-dashboard-nodes": {
+        "name": "cn-dashboard-nodes",
+        "version": "0.0.2",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "IssueDashboard": {
+                "name": "IssueDashboard",
+                "types": [
+                    "IssueDashboard"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "cn-dashboard-nodes",
+                "file": "/root/.node-red/node_modules/cn-dashboard-nodes/issue-dashboard/issue_dashboard.js"
+            }
+        }
+    },
+    "node-red-contrib-dashboard-average-bars": {
+        "name": "node-red-contrib-dashboard-average-bars",
+        "version": "0.0.6",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "average-bars": {
+                "name": "average-bars",
+                "types": [
+                    "average-bars"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-dashboard-average-bars",
+                "file": "/root/.node-red/node_modules/node-red-contrib-dashboard-average-bars/average-bars.js"
+            }
+        }
+    },
+    "node-red-contrib-ui-digital-display": {
+        "name": "node-red-contrib-ui-digital-display",
+        "version": "1.0.3",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "ui_digital_display": {
+                "name": "ui_digital_display",
+                "types": [
+                    "ui_digital_display"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-ui-digital-display",
+                "file": "/root/.node-red/node_modules/node-red-contrib-ui-digital-display/display.js"
+            }
+        }
+    },
+    "node-red-contrib-ui-thermostat": {
+        "name": "node-red-contrib-ui-thermostat",
+        "version": "1.0.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "thermostat": {
+                "name": "thermostat",
+                "types": [
+                    "ui_thermostat"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-ui-thermostat",
+                "file": "/root/.node-red/node_modules/node-red-contrib-ui-thermostat/src/ui_thermostat.js"
+            }
+        }
+    },
+    "node-red-contrib-ui-level": {
+        "name": "node-red-contrib-ui-level",
+        "version": "0.1.46",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "ui-level": {
+                "name": "ui-level",
+                "types": [
+                    "ui_level"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-ui-level",
+                "file": "/root/.node-red/node_modules/node-red-contrib-ui-level/ui-level.js"
+            }
+        }
+    },
+    "node-red-contrib-dashbored": {
+        "name": "node-red-contrib-dashbored",
+        "version": "0.4.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "dashbored-server": {
+                "name": "dashbored-server",
+                "types": [
+                    "dashbored-server"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-dashbored",
+                "file": "/root/.node-red/node_modules/node-red-contrib-dashbored/nodes/server.js"
+            },
+            "dashbored-widget": {
+                "name": "dashbored-widget",
+                "types": [
+                    "dashbored-widget"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-dashbored",
+                "file": "/root/.node-red/node_modules/node-red-contrib-dashbored/nodes/widget.js"
+            },
+            "dashbored-dashbored": {
+                "name": "dashbored-dashbored",
+                "types": [
+                    "dashbored-dashbored"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-dashbored",
+                "file": "/root/.node-red/node_modules/node-red-contrib-dashbored/nodes/dashbored.js"
+            },
+            "dashbored-widget-node": {
+                "name": "dashbored-widget-node",
+                "types": [
+                    "dashbored-widget-node"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-dashbored",
+                "file": "/root/.node-red/node_modules/node-red-contrib-dashbored/nodes/widgetNode.js"
+            },
+            "dashbored-node": {
+                "name": "dashbored-node",
+                "types": [
+                    "dashbored-node"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-dashbored",
+                "file": "/root/.node-red/node_modules/node-red-contrib-dashbored/nodes/dashboredNode.js"
+            }
+        }
+    },
+    "node-red-contrib-ui-led": {
+        "name": "node-red-contrib-ui-led",
+        "version": "0.4.11",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "ui_led": {
+                "name": "ui_led",
+                "types": [
+                    "ui_led"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-ui-led",
+                "file": "/root/.node-red/node_modules/node-red-contrib-ui-led/dist/nodes/ui_led/ui_led.js"
+            }
+        }
+    },
+    "node-red-contrib-dashboard-bar-chart-data": {
+        "name": "node-red-contrib-dashboard-bar-chart-data",
+        "version": "0.9.8",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "bar-chart-data": {
+                "name": "bar-chart-data",
+                "types": [
+                    "bar-chart-data"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-dashboard-bar-chart-data",
+                "file": "/root/.node-red/node_modules/node-red-contrib-dashboard-bar-chart-data/bar-chart-data.js"
+            }
+        }
+    },
+    "node-red-contrib-ui-simple-level": {
+        "name": "node-red-contrib-ui-simple-level",
+        "version": "1.0.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "ui_simple_level": {
+                "name": "ui_simple_level",
+                "types": [
+                    "ui_simple_level"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-ui-simple-level",
+                "file": "/root/.node-red/node_modules/node-red-contrib-ui-simple-level/level/level.js"
+            }
+        }
     }
 }
