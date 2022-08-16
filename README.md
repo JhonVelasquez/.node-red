@@ -12,11 +12,11 @@ Project is created with:
 * nvm 
   - node 15.5.0
     - node-red:
-         git clone https://github.com/node-red/node-red.git
-         cd node-red
-         npm install
-         npm run build
-         npm start -- flows_[computer_name].json --port 80
+         - git clone https://github.com/node-red/node-red.git
+         - cd node-red
+         - npm install
+         - npm run build
+         - npm start -- flows_[computer_name].json --port 80
          
 ## About Node-red:
  
